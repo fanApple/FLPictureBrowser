@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FLBrowsePhotoView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <FLBrowsePhotoViewDelegate>
 
 
 @end

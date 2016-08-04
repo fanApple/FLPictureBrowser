@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E80EA28E1CAC6E869A5DC72 /* libPods-FLPictureBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EFEA2D81A30901EADF23BF /* libPods-FLPictureBrowser.a */; };
 		D3CB67CC1D536C0A005683C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67CB1D536C0A005683C3 /* main.m */; };
 		D3CB67CF1D536C0A005683C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67CE1D536C0A005683C3 /* AppDelegate.m */; };
 		D3CB67D21D536C0A005683C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67D11D536C0A005683C3 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		D3CB67DA1D536C0A005683C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CB67D81D536C0A005683C3 /* LaunchScreen.storyboard */; };
 		D3CB67E51D536C0A005683C3 /* FLPictureBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67E41D536C0A005683C3 /* FLPictureBrowserTests.m */; };
 		D3CB67F01D536C0A005683C3 /* FLPictureBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67EF1D536C0A005683C3 /* FLPictureBrowserUITests.m */; };
+		D3E4B0691D53974400D27BB1 /* UIView+FLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B0681D53974400D27BB1 /* UIView+FLExtension.m */; };
+		D3E4B06F1D53990800D27BB1 /* FLBrowsePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B06C1D53990800D27BB1 /* FLBrowsePhotoView.m */; };
+		D3E4B0701D53990800D27BB1 /* FLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B06E1D53990800D27BB1 /* FLImageView.m */; };
+		D3E4B0721D539CA600D27BB1 /* ms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B0711D539CA600D27BB1 /* ms.jpg */; };
+		D3E4B0761D53A8C800D27BB1 /* ms1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B0731D53A8C800D27BB1 /* ms1.jpg */; };
+		D3E4B0771D53A8C800D27BB1 /* ms2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B0741D53A8C800D27BB1 /* ms2.jpg */; };
+		D3E4B0781D53A8C800D27BB1 /* ms3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B0751D53A8C800D27BB1 /* ms3.jpg */; };
+		D3E4B07A1D53A8FE00D27BB1 /* ms4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B0791D53A8FE00D27BB1 /* ms4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D7963CF352C70FC7E21742 /* Pods-FLPictureBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLPictureBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLPictureBrowser/Pods-FLPictureBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		3C2483197C60B5B52207CA18 /* Pods-FLPictureBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLPictureBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLPictureBrowser/Pods-FLPictureBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		A6EFEA2D81A30901EADF23BF /* libPods-FLPictureBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLPictureBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CB67C71D536C0A005683C3 /* FLPictureBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLPictureBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CB67CB1D536C0A005683C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3CB67CD1D536C0A005683C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,18 @@
 		D3CB67EB1D536C0A005683C3 /* FLPictureBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLPictureBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CB67EF1D536C0A005683C3 /* FLPictureBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPictureBrowserUITests.m; sourceTree = "<group>"; };
 		D3CB67F11D536C0A005683C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E4B0641D53915D00D27BB1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D3E4B0671D53974400D27BB1 /* UIView+FLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLExtension.h"; sourceTree = "<group>"; };
+		D3E4B0681D53974400D27BB1 /* UIView+FLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLExtension.m"; sourceTree = "<group>"; };
+		D3E4B06B1D53990800D27BB1 /* FLBrowsePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBrowsePhotoView.h; sourceTree = "<group>"; };
+		D3E4B06C1D53990800D27BB1 /* FLBrowsePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLBrowsePhotoView.m; sourceTree = "<group>"; };
+		D3E4B06D1D53990800D27BB1 /* FLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLImageView.h; sourceTree = "<group>"; };
+		D3E4B06E1D53990800D27BB1 /* FLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLImageView.m; sourceTree = "<group>"; };
+		D3E4B0711D539CA600D27BB1 /* ms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ms.jpg; sourceTree = "<group>"; };
+		D3E4B0731D53A8C800D27BB1 /* ms1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ms1.jpg; sourceTree = "<group>"; };
+		D3E4B0741D53A8C800D27BB1 /* ms2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ms2.jpg; sourceTree = "<group>"; };
+		D3E4B0751D53A8C800D27BB1 /* ms3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ms3.jpg; sourceTree = "<group>"; };
+		D3E4B0791D53A8FE00D27BB1 /* ms4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ms4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E80EA28E1CAC6E869A5DC72 /* libPods-FLPictureBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C95D257B15DCC81F5F44F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EFEA2D81A30901EADF23BF /* libPods-FLPictureBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AB96E44290F88496CAD4A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C2483197C60B5B52207CA18 /* Pods-FLPictureBrowser.debug.xcconfig */,
+				31D7963CF352C70FC7E21742 /* Pods-FLPictureBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D3CB67BE1D536C09005683C3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				D3CB67E31D536C0A005683C3 /* FLPictureBrowserTests */,
 				D3CB67EE1D536C0A005683C3 /* FLPictureBrowserUITests */,
 				D3CB67C81D536C0A005683C3 /* Products */,
+				B6AB96E44290F88496CAD4A0 /* Pods */,
+				2C95D257B15DCC81F5F44F07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +145,9 @@
 		D3CB67C91D536C0A005683C3 /* FLPictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				D3E4B06A1D53990800D27BB1 /* FLPictureBrowser */,
+				D3E4B0651D5396D300D27BB1 /* Category */,
+				D3E4B0641D53915D00D27BB1 /* PrefixHeader.pch */,
 				D3CB67CD1D536C0A005683C3 /* AppDelegate.h */,
 				D3CB67CE1D536C0A005683C3 /* AppDelegate.m */,
 				D3CB67D01D536C0A005683C3 /* ViewController.h */,
@@ -117,6 +164,11 @@
 		D3CB67CA1D536C0A005683C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3E4B0731D53A8C800D27BB1 /* ms1.jpg */,
+				D3E4B0741D53A8C800D27BB1 /* ms2.jpg */,
+				D3E4B0751D53A8C800D27BB1 /* ms3.jpg */,
+				D3E4B0791D53A8FE00D27BB1 /* ms4.jpg */,
+				D3E4B0711D539CA600D27BB1 /* ms.jpg */,
 				D3CB67CB1D536C0A005683C3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +192,26 @@
 			path = FLPictureBrowserUITests;
 			sourceTree = "<group>";
 		};
+		D3E4B0651D5396D300D27BB1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B0671D53974400D27BB1 /* UIView+FLExtension.h */,
+				D3E4B0681D53974400D27BB1 /* UIView+FLExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D3E4B06A1D53990800D27BB1 /* FLPictureBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B06B1D53990800D27BB1 /* FLBrowsePhotoView.h */,
+				D3E4B06C1D53990800D27BB1 /* FLBrowsePhotoView.m */,
+				D3E4B06D1D53990800D27BB1 /* FLImageView.h */,
+				D3E4B06E1D53990800D27BB1 /* FLImageView.m */,
+			);
+			path = FLPictureBrowser;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3CB67F41D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowser" */;
 			buildPhases = (
+				4AAA9D082DB18B6DB58C1861 /* 📦 Check Pods Manifest.lock */,
 				D3CB67C31D536C0A005683C3 /* Sources */,
 				D3CB67C41D536C0A005683C3 /* Frameworks */,
 				D3CB67C51D536C0A005683C3 /* Resources */,
+				0C176733141211EEF20D5DDC /* 📦 Embed Pods Frameworks */,
+				240141D6913BEBD366158D6C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +277,7 @@
 		D3CB67BF1D536C09005683C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "http://www.jianshu.com/users/6216a4946b5a/latest_articles";
 				TargetAttributes = {
@@ -244,8 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3CB67DA1D536C0A005683C3 /* LaunchScreen.storyboard in Resources */,
+				D3E4B0771D53A8C800D27BB1 /* ms2.jpg in Resources */,
+				D3E4B0781D53A8C800D27BB1 /* ms3.jpg in Resources */,
+				D3E4B07A1D53A8FE00D27BB1 /* ms4.jpg in Resources */,
+				D3E4B0761D53A8C800D27BB1 /* ms1.jpg in Resources */,
 				D3CB67D71D536C0A005683C3 /* Assets.xcassets in Resources */,
 				D3CB67D51D536C0A005683C3 /* Main.storyboard in Resources */,
+				D3E4B0721D539CA600D27BB1 /* ms.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +346,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C176733141211EEF20D5DDC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLPictureBrowser/Pods-FLPictureBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		240141D6913BEBD366158D6C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLPictureBrowser/Pods-FLPictureBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AAA9D082DB18B6DB58C1861 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3CB67C31D536C0A005683C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E4B0701D53990800D27BB1 /* FLImageView.m in Sources */,
 				D3CB67D21D536C0A005683C3 /* ViewController.m in Sources */,
 				D3CB67CF1D536C0A005683C3 /* AppDelegate.m in Sources */,
+				D3E4B06F1D53990800D27BB1 /* FLBrowsePhotoView.m in Sources */,
+				D3E4B0691D53974400D27BB1 /* UIView+FLExtension.m in Sources */,
 				D3CB67CC1D536C0A005683C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,9 +543,12 @@
 		};
 		D3CB67F51D536C0A005683C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2483197C60B5B52207CA18 /* Pods-FLPictureBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FLPictureBrowser/PrefixHeader.pch;
 				INFOPLIST_FILE = FLPictureBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +557,12 @@
 		};
 		D3CB67F61D536C0A005683C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D7963CF352C70FC7E21742 /* Pods-FLPictureBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FLPictureBrowser/PrefixHeader.pch;
 				INFOPLIST_FILE = FLPictureBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +634,7 @@
 				D3CB67F61D536C0A005683C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3CB67F71D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +643,7 @@
 				D3CB67F91D536C0A005683C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3CB67FA1D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +652,7 @@
 				D3CB67FC1D536C0A005683C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

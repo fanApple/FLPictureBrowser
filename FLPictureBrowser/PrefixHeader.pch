@@ -1,0 +1,55 @@
+//
+//  PrefixHeader.pch
+//  FLPictureBrowser
+//
+//  Created by __阿彤木_ on 16/8/4.
+//  Copyright © 2016年 http://www.jianshu.com/users/6216a4946b5a/latest_articles. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*导入头文件**********/
+#import "UIImageView+WebCache.h"
+#import "UIView+FLExtension.h"
+#import "SVProgressHUD/SVProgressHUD.h"
+
+
+
+
+
+
+
+
+//系统单例
+#define fNotiCenter [NSNotificationCenter defaultCenter]
+#define fKeyWindow [UIApplication sharedApplication].keyWindow
+
+
+
+
+
+//************常用
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+// RGB颜色
+#define fColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define kWeakSelf __weak typeof(self) weakSelf = self;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
