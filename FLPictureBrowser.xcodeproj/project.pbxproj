@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3CB67CC1D536C0A005683C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67CB1D536C0A005683C3 /* main.m */; };
+		D3CB67CF1D536C0A005683C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67CE1D536C0A005683C3 /* AppDelegate.m */; };
+		D3CB67D21D536C0A005683C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67D11D536C0A005683C3 /* ViewController.m */; };
+		D3CB67D51D536C0A005683C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CB67D31D536C0A005683C3 /* Main.storyboard */; };
+		D3CB67D71D536C0A005683C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CB67D61D536C0A005683C3 /* Assets.xcassets */; };
+		D3CB67DA1D536C0A005683C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CB67D81D536C0A005683C3 /* LaunchScreen.storyboard */; };
+		D3CB67E51D536C0A005683C3 /* FLPictureBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67E41D536C0A005683C3 /* FLPictureBrowserTests.m */; };
+		D3CB67F01D536C0A005683C3 /* FLPictureBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67EF1D536C0A005683C3 /* FLPictureBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3CB67E11D536C0A005683C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CB67BF1D536C09005683C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CB67C61D536C0A005683C3;
+			remoteInfo = FLPictureBrowser;
+		};
+		D3CB67EC1D536C0A005683C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CB67BF1D536C09005683C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CB67C61D536C0A005683C3;
+			remoteInfo = FLPictureBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3CB67C71D536C0A005683C3 /* FLPictureBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLPictureBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CB67CB1D536C0A005683C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CB67CD1D536C0A005683C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3CB67CE1D536C0A005683C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3CB67D01D536C0A005683C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3CB67D11D536C0A005683C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3CB67D41D536C0A005683C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CB67D61D536C0A005683C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CB67D91D536C0A005683C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3CB67DB1D536C0A005683C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CB67E01D536C0A005683C3 /* FLPictureBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLPictureBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CB67E41D536C0A005683C3 /* FLPictureBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPictureBrowserTests.m; sourceTree = "<group>"; };
+		D3CB67E61D536C0A005683C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CB67EB1D536C0A005683C3 /* FLPictureBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLPictureBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CB67EF1D536C0A005683C3 /* FLPictureBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPictureBrowserUITests.m; sourceTree = "<group>"; };
+		D3CB67F11D536C0A005683C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CB67C41D536C0A005683C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB67DD1D536C0A005683C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB67E81D536C0A005683C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CB67BE1D536C09005683C3 = {
+			isa = PBXGroup;
+			children = (
+				D3CB67C91D536C0A005683C3 /* FLPictureBrowser */,
+				D3CB67E31D536C0A005683C3 /* FLPictureBrowserTests */,
+				D3CB67EE1D536C0A005683C3 /* FLPictureBrowserUITests */,
+				D3CB67C81D536C0A005683C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CB67C81D536C0A005683C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB67C71D536C0A005683C3 /* FLPictureBrowser.app */,
+				D3CB67E01D536C0A005683C3 /* FLPictureBrowserTests.xctest */,
+				D3CB67EB1D536C0A005683C3 /* FLPictureBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CB67C91D536C0A005683C3 /* FLPictureBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB67CD1D536C0A005683C3 /* AppDelegate.h */,
+				D3CB67CE1D536C0A005683C3 /* AppDelegate.m */,
+				D3CB67D01D536C0A005683C3 /* ViewController.h */,
+				D3CB67D11D536C0A005683C3 /* ViewController.m */,
+				D3CB67D31D536C0A005683C3 /* Main.storyboard */,
+				D3CB67D61D536C0A005683C3 /* Assets.xcassets */,
+				D3CB67D81D536C0A005683C3 /* LaunchScreen.storyboard */,
+				D3CB67DB1D536C0A005683C3 /* Info.plist */,
+				D3CB67CA1D536C0A005683C3 /* Supporting Files */,
+			);
+			path = FLPictureBrowser;
+			sourceTree = "<group>";
+		};
+		D3CB67CA1D536C0A005683C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB67CB1D536C0A005683C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3CB67E31D536C0A005683C3 /* FLPictureBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB67E41D536C0A005683C3 /* FLPictureBrowserTests.m */,
+				D3CB67E61D536C0A005683C3 /* Info.plist */,
+			);
+			path = FLPictureBrowserTests;
+			sourceTree = "<group>";
+		};
+		D3CB67EE1D536C0A005683C3 /* FLPictureBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB67EF1D536C0A005683C3 /* FLPictureBrowserUITests.m */,
+				D3CB67F11D536C0A005683C3 /* Info.plist */,
+			);
+			path = FLPictureBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CB67C61D536C0A005683C3 /* FLPictureBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CB67F41D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowser" */;
+			buildPhases = (
+				D3CB67C31D536C0A005683C3 /* Sources */,
+				D3CB67C41D536C0A005683C3 /* Frameworks */,
+				D3CB67C51D536C0A005683C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLPictureBrowser;
+			productName = FLPictureBrowser;
+			productReference = D3CB67C71D536C0A005683C3 /* FLPictureBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3CB67DF1D536C0A005683C3 /* FLPictureBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CB67F71D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowserTests" */;
+			buildPhases = (
+				D3CB67DC1D536C0A005683C3 /* Sources */,
+				D3CB67DD1D536C0A005683C3 /* Frameworks */,
+				D3CB67DE1D536C0A005683C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CB67E21D536C0A005683C3 /* PBXTargetDependency */,
+			);
+			name = FLPictureBrowserTests;
+			productName = FLPictureBrowserTests;
+			productReference = D3CB67E01D536C0A005683C3 /* FLPictureBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3CB67EA1D536C0A005683C3 /* FLPictureBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CB67FA1D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowserUITests" */;
+			buildPhases = (
+				D3CB67E71D536C0A005683C3 /* Sources */,
+				D3CB67E81D536C0A005683C3 /* Frameworks */,
+				D3CB67E91D536C0A005683C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CB67ED1D536C0A005683C3 /* PBXTargetDependency */,
+			);
+			name = FLPictureBrowserUITests;
+			productName = FLPictureBrowserUITests;
+			productReference = D3CB67EB1D536C0A005683C3 /* FLPictureBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CB67BF1D536C09005683C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "http://www.jianshu.com/users/6216a4946b5a/latest_articles";
+				TargetAttributes = {
+					D3CB67C61D536C0A005683C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D3CB67DF1D536C0A005683C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3CB67C61D536C0A005683C3;
+					};
+					D3CB67EA1D536C0A005683C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3CB67C61D536C0A005683C3;
+					};
+				};
+			};
+			buildConfigurationList = D3CB67C21D536C09005683C3 /* Build configuration list for PBXProject "FLPictureBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3CB67BE1D536C09005683C3;
+			productRefGroup = D3CB67C81D536C0A005683C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CB67C61D536C0A005683C3 /* FLPictureBrowser */,
+				D3CB67DF1D536C0A005683C3 /* FLPictureBrowserTests */,
+				D3CB67EA1D536C0A005683C3 /* FLPictureBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CB67C51D536C0A005683C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CB67DA1D536C0A005683C3 /* LaunchScreen.storyboard in Resources */,
+				D3CB67D71D536C0A005683C3 /* Assets.xcassets in Resources */,
+				D3CB67D51D536C0A005683C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB67DE1D536C0A005683C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB67E91D536C0A005683C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CB67C31D536C0A005683C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CB67D21D536C0A005683C3 /* ViewController.m in Sources */,
+				D3CB67CF1D536C0A005683C3 /* AppDelegate.m in Sources */,
+				D3CB67CC1D536C0A005683C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB67DC1D536C0A005683C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CB67E51D536C0A005683C3 /* FLPictureBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB67E71D536C0A005683C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CB67F01D536C0A005683C3 /* FLPictureBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3CB67E21D536C0A005683C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CB67C61D536C0A005683C3 /* FLPictureBrowser */;
+			targetProxy = D3CB67E11D536C0A005683C3 /* PBXContainerItemProxy */;
+		};
+		D3CB67ED1D536C0A005683C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CB67C61D536C0A005683C3 /* FLPictureBrowser */;
+			targetProxy = D3CB67EC1D536C0A005683C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3CB67D31D536C0A005683C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CB67D41D536C0A005683C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3CB67D81D536C0A005683C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CB67D91D536C0A005683C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CB67F21D536C0A005683C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3CB67F31D536C0A005683C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CB67F51D536C0A005683C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLPictureBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3CB67F61D536C0A005683C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLPictureBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3CB67F81D536C0A005683C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FLPictureBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLPictureBrowser.app/FLPictureBrowser";
+			};
+			name = Debug;
+		};
+		D3CB67F91D536C0A005683C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FLPictureBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLPictureBrowser.app/FLPictureBrowser";
+			};
+			name = Release;
+		};
+		D3CB67FB1D536C0A005683C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FLPictureBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLPictureBrowser;
+			};
+			name = Debug;
+		};
+		D3CB67FC1D536C0A005683C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FLPictureBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLPictureBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLPictureBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CB67C21D536C09005683C3 /* Build configuration list for PBXProject "FLPictureBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CB67F21D536C0A005683C3 /* Debug */,
+				D3CB67F31D536C0A005683C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CB67F41D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CB67F51D536C0A005683C3 /* Debug */,
+				D3CB67F61D536C0A005683C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3CB67F71D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CB67F81D536C0A005683C3 /* Debug */,
+				D3CB67F91D536C0A005683C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3CB67FA1D536C0A005683C3 /* Build configuration list for PBXNativeTarget "FLPictureBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CB67FB1D536C0A005683C3 /* Debug */,
+				D3CB67FC1D536C0A005683C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CB67BF1D536C09005683C3 /* Project object */;
+}
