@@ -13,6 +13,8 @@
 
 @property (nonatomic,strong)UIImageView *imageView;
 
+
+@property(nonatomic,strong) UILabel  *progress;
 @end
 
 
@@ -55,13 +57,33 @@
 }
 
 
+- (UILabel *)progress {
+    if (!_progress) {
+        _progress = [[UILabel alloc] init];
+        _progress.width = 100;
+        _progress.height = 40;
+        _progress.center = self.center;
+        _progress.font = [UIFont systemFontOfSize:12.0];
+        _progress.textColor = [UIColor whiteColor];
+        _progress.textAlignment = NSTextAlignmentCenter;
+        _progress.backgroundColor = [UIColor clearColor];
+    }
+    return _progress;
+}
+
+
 - (void)setImageWithUrl:(NSURL *)url placeholderImage:(UIImage *)placeholderImage {
-    
-    
+    [self.imageView addSubview:self.progress];
     [self.imageView sd_setImageWithURL:url placeholderImage:placeholderImage options:SDWebImageRetryFailed progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//        (CGFloat)receivedSize / expectedSize; 进度
+        
+        _progress.text = [NSString stringWithFormat:@"%.f%%",((CGFloat)(receivedSize*100/expectedSize))];
+        [_progress setNeedsDisplay];
+        
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         self.currentImage = self.imageView.image;
+        //        [self.wait removeFromSuperview];
+        _progress.text = @"100%%";
+        [self.progress removeFromSuperview];
     }];
 }
 

@@ -78,6 +78,11 @@
 }
 
 - (void)previewPictures:(UIButton *)sender {
+    UIView *mask = [[UIView alloc] initWithFrame:self.view.bounds];
+    mask.backgroundColor = [UIColor blackColor];
+    mask.tag = 1008;
+    [self.view addSubview:mask];
+    
     FLBrowsePhotoView *flb = [[FLBrowsePhotoView alloc] initWithFrame:self.view.bounds fromView:_backgroundView urls:_urls currentIndex:sender.tag delegate:self];
     [self.view addSubview:flb];
 }

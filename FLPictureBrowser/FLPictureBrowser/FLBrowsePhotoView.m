@@ -94,7 +94,7 @@
     UIPageControl *pc = [[UIPageControl alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
     
     pc.center = CGPointMake(self.frame.size.width/2, self.frame.size.height - 20);
-    pc.hidesForSinglePage = YES;
+    pc.hidesForSinglePage = YES; 
     pc.alpha = 1;
     pc.pageIndicatorTintColor = [UIColor lightGrayColor];
     pc.hidesForSinglePage = YES;
@@ -102,7 +102,6 @@
     //设置页数
     pc.numberOfPages = pageNum;
     pc.currentPage = _index;
-    //由于是滑动scrollView才让移动
     pc.enabled = NO;
     [self addSubview:pc];
     _pc =pc;
@@ -167,7 +166,7 @@
     }
     [_pbView reloadData];
     
-    [UIView animateWithDuration:0.25 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         self.alpha = 1.0;
     }];
     UIView *sourceView = _fromView.subviews[_index];
@@ -182,13 +181,15 @@
     CGRect targetTemp = self.bounds;
     _pbView.hidden = YES;
     
-    [UIView animateWithDuration:0.25 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         tempView.center = self.center;
         tempView.bounds = (CGRect){CGPointZero, targetTemp.size};
     } completion:^(BOOL finished) {
         tempView.hidden = YES;
         [tempView removeFromSuperview];
         _pbView.hidden = NO;
+        UIView *mask = [self.superview viewWithTag:1008];
+        [mask removeFromSuperview];
     }];
     
     
@@ -215,16 +216,35 @@
 
 - (void)dismiss {
     FLImageView *iv = [[FLImageView alloc] initWithFrame:self.frame bigUrl:[self getBigPhotoUrlWithCurrentIndex:_index] smImage:nil];
-   
-    [self addSubview:iv];
-    _pbView.hidden = YES;
+
+    
+    //没有加载成功时点击
+    if (iv.currentImage == nil) {
+        iv.currentImage = [self getSmlPhotoUrlWithCurrentIndex:_index];
+    }
+    
+    /**
+     *  这里仅仅是为了效果好看，本来后台给大图的时候会有尺寸的 ，这里没有，就加上了
+     */
+    
+    CGFloat picWdivH = iv.currentImage.size.width/iv.currentImage.size.height;
+    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:iv.currentImage];
+
+    CGRect frame;
+    frame.size = CGSizeMake(self.width, self.width/picWdivH);
+    tempImageView.frame = frame;
+    tempImageView.center = self.center;
+    [self addSubview:tempImageView];
+    
     UIView *toView = _fromView.subviews[_index];
     CGRect rect = [_fromView convertRect:toView.frame toView:self];
-    [UIView animateWithDuration:0.25 animations:^{
-        iv.frame = rect;
+    [UIView animateWithDuration:0.5 animations:^{
+        tempImageView.frame = rect;
+        _pbView.alpha = 0.0;
     } completion:^(BOOL finished) {
-        [iv removeFromSuperview];
+        [tempImageView removeFromSuperview];
         [self removeFromSuperview];
+        [_pbView removeFromSuperview];
     }];
     
 }
