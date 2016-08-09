@@ -120,6 +120,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D3A6BA391D597236006B12C5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6BA3A1D597236006B12C5 /* Controllers */,
+				D3A6BA3B1D597236006B12C5 /* Models */,
+				D3A6BA3C1D597236006B12C5 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D3A6BA3A1D597236006B12C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3A6BA3B1D597236006B12C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3A6BA3C1D597236006B12C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D3CB67BE1D536C09005683C3 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +176,7 @@
 		D3CB67C91D536C0A005683C3 /* FLPictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				D3A6BA391D597236006B12C5 /* Main */,
 				D3E4B06A1D53990800D27BB1 /* FLPictureBrowser */,
 				D3E4B0651D5396D300D27BB1 /* Category */,
 				D3E4B0641D53915D00D27BB1 /* PrefixHeader.pch */,
