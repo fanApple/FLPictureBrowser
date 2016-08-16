@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FLRootViewController.h"
+#import "FLBaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[FLRootViewController alloc] init];
+    self.window.rootViewController = [[FLBaseNavigationController alloc] initWithRootViewController:[[FLRootViewController alloc] init]];
     [self.window makeKeyWindow];
     return YES;
 }

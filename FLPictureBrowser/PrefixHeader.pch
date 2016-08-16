@@ -34,7 +34,7 @@
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 // RGB颜色
 #define fColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-
+#define Default_View_BackGroundColor fColor(242, 243, 244)
 #define kWeakSelf __weak typeof(self) weakSelf = self;
 
 

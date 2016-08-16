@@ -10,4 +10,7 @@
 
 @interface FLRootViewController : UIViewController
 
+@property(nonatomic,strong) NSMutableArray *titles;
+@property(nonatomic,strong) NSMutableArray *className;
+
 @end
