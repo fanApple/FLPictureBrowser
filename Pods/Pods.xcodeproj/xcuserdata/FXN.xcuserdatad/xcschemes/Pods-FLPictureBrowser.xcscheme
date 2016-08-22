@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3BCB9FCAEF74365D7464BEE970717AB5'
+               BlueprintIdentifier = '30792356B2E77009FEE5B16690C592C9'
                BlueprintName = 'Pods-FLPictureBrowser'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-FLPictureBrowser.a'>

@@ -19,6 +19,7 @@
 		D3CB67F01D536C0A005683C3 /* FLPictureBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CB67EF1D536C0A005683C3 /* FLPictureBrowserUITests.m */; };
 		D3DA62801D6340C700308B18 /* FLNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA627F1D6340C700308B18 /* FLNormalViewController.m */; };
 		D3DA62831D63413A00308B18 /* FLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA62821D63413A00308B18 /* FLBaseNavigationController.m */; };
+		D3E076501D6B342900A22F53 /* FLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E0764F1D6B342900A22F53 /* FLRuntime.m */; };
 		D3E4B0691D53974400D27BB1 /* UIView+FLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B0681D53974400D27BB1 /* UIView+FLExtension.m */; };
 		D3E4B06F1D53990800D27BB1 /* FLBrowsePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B06C1D53990800D27BB1 /* FLBrowsePhotoView.m */; };
 		D3E4B0701D53990800D27BB1 /* FLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B06E1D53990800D27BB1 /* FLImageView.m */; };
@@ -67,6 +68,8 @@
 		D3DA627F1D6340C700308B18 /* FLNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNormalViewController.m; sourceTree = "<group>"; };
 		D3DA62811D63413A00308B18 /* FLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBaseNavigationController.h; sourceTree = "<group>"; };
 		D3DA62821D63413A00308B18 /* FLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLBaseNavigationController.m; sourceTree = "<group>"; };
+		D3E0764E1D6B342900A22F53 /* FLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRuntime.h; sourceTree = "<group>"; };
+		D3E0764F1D6B342900A22F53 /* FLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRuntime.m; sourceTree = "<group>"; };
 		D3E4B0641D53915D00D27BB1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D3E4B0671D53974400D27BB1 /* UIView+FLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLExtension.h"; sourceTree = "<group>"; };
 		D3E4B0681D53974400D27BB1 /* UIView+FLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLExtension.m"; sourceTree = "<group>"; };
@@ -188,6 +191,7 @@
 		D3CB67C91D536C0A005683C3 /* FLPictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				D3E0764D1D6B33E600A22F53 /* Utility */,
 				D342C7001D60B10800CB4F85 /* Others */,
 				D3A6BA391D597236006B12C5 /* Main */,
 				D3E4B06A1D53990800D27BB1 /* FLPictureBrowser */,
@@ -230,6 +234,15 @@
 				D3CB67F11D536C0A005683C3 /* Info.plist */,
 			);
 			path = FLPictureBrowserUITests;
+			sourceTree = "<group>";
+		};
+		D3E0764D1D6B33E600A22F53 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D3E0764E1D6B342900A22F53 /* FLRuntime.h */,
+				D3E0764F1D6B342900A22F53 /* FLRuntime.m */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		D3E4B0651D5396D300D27BB1 /* Category */ = {
@@ -436,6 +449,7 @@
 			files = (
 				D342C7031D60B29300CB4F85 /* ViewController.m in Sources */,
 				D342C6FF1D60B0DF00CB4F85 /* FLRootViewController.m in Sources */,
+				D3E076501D6B342900A22F53 /* FLRuntime.m in Sources */,
 				D3E4B0701D53990800D27BB1 /* FLImageView.m in Sources */,
 				D3CB67CF1D536C0A005683C3 /* AppDelegate.m in Sources */,
 				D3DA62831D63413A00308B18 /* FLBaseNavigationController.m in Sources */,

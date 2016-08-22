@@ -1,17 +1,26 @@
 PODS:
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
+  - ReactiveCocoa
   - SDWebImage
   - SVProgressHUD (>= 2.0)
 
 SPEC CHECKSUMS:
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: c9f3bd591d72b6b6b6e3f71e51edb9cff95b19ed
+PODFILE CHECKSUM: 53c6b1abf57e4da56decd4ec4e9a62998cdd9a4a
 
 COCOAPODS: 1.0.0

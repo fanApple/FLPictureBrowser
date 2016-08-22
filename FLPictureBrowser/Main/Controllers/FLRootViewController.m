@@ -27,6 +27,8 @@
     
     [self addCellTitle:@"图片全在一个view" className:@"FLNormalViewController"];
     [self addCellTitle:@"图片是一个view中的个别的" className:@"FLFormat1"];
+    
+    [FLRuntime getAttributeWithClassName:[UITextField class]];
 }
 
 - (void)addCellTitle:(NSString *)title className:(NSString *)className {
