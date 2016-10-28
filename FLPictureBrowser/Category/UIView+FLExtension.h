@@ -10,8 +10,6 @@
 
 @interface UIView (FLExtension)
 
-
-
 @property (nonatomic) CGFloat originX;
 @property (nonatomic) CGFloat originY;
 @property (nonatomic) CGFloat left;
@@ -24,8 +22,5 @@
 @property (nonatomic) CGFloat centerY;
 @property (nonatomic) CGPoint origin;
 @property (nonatomic) CGSize  size;
-
-
-
 
 @end
